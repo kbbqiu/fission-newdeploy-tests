@@ -15,6 +15,7 @@ spec:
     podspec:
       containers:
       - name: nodejs
+        image: fission/node-env
         env:
         - name: DEMO_GREETING
           value: "TESTING HELLO"
